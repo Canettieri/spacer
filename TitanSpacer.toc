@@ -1,0 +1,17 @@
+## Interface: 90002
+## Title: Titan Panel [|cff336699Spacer|r] |cff00aa00v2.4.2|r
+## Notes: Add spacers on Titan Panel! Right-click on Titan Panel, go to "Interface" tab and enjoy.
+## Author: Canettieri
+## Version: 2.4.2
+## Dependencies: Titan
+Core\Elib-2.4.lua
+Core\SpacerCore.lua
+Core\locale.lua
+TitanSpacer1.lua
+TitanSpacer2.lua
+TitanSpacer3.lua
+TitanSpacer4.lua
+TitanSpacer5.lua
+TitanSpacer6.lua
+TitanSpacer7.lua
+TitanSpacer8.lua
