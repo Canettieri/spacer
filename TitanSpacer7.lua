@@ -1,6 +1,6 @@
 --[[
 Description: A very simple plugin to add a spacer in Titan Panel
-Site: http://www.curse.com/addons/wow/titan-panel-spacer
+Site: https://www.curseforge.com/wow/addons/titan-panel-spacer
 Author: Canettieri
 --]]
 
@@ -36,12 +36,13 @@ end
 -----------------------------------------------
 L.Elib({
 	id = ID,
-	name = "Titan|cFFfcb314 ".."Spacer |cFFf3f45f#7".."|r",
+	name = "Titan|cFFfcb314 " .. "Spacer |cFFf3f45f#7" .. "|r",
 	category = "Interface",
 	version = version,
 	getButtonText = GetButtonText,
 	prepareMenu = L.PrepareSpacerMenu,
 	savedVariables = {
+		ShowIcon = false,
 		ShowText = true,
 		DisplayOnRightSide = false,
 		MoreSpace = false,

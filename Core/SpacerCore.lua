@@ -1,12 +1,13 @@
 --[[
 	Description: This plugin is part of the "Titan Panel [Spacer]" addon.
-	Site: http://www.curse.com/addons/wow/titan-panel-spacer
+	Site: https://www.curseforge.com/wow/addons/titan-panel-spacer
 	Author: Canettieri
 	Special Thanks to Eliote.
 --]]
 
 local ADDON_NAME, L = ...;
 local ACE = LibStub("AceLocale-3.0"):GetLocale("Titan", true)
+L.Elib = LibStub("Elib-4.0").Register
 
 local function ToggleShowText(self, id) -- Toggle to show symbols
 	TitanToggleVar(id, "ShowText");
@@ -23,31 +24,49 @@ local function ToggleMoreSpace(self, id) -- Hide Max display
 	TitanPanelButton_UpdateButton(id)
 end
 
-function L.PrepareSpacerMenu(self, id)
-	TitanPanelRightClickMenu_AddTitle(TitanPlugins[id].menuText)
+function L.PrepareSpacerMenu(eddm, self, id)
+	eddm.UIDropDownMenu_AddButton({
+		text = TitanPlugins[id].menuText,
+		hasArrow = false,
+		isTitle = true,
+		isUninteractable = true,
+		notCheckable = true
+	})
 
 	info = {};
 	info.text = L["show"];
 	info.func = ToggleShowText;
 	info.arg1 = id
 	info.checked = TitanGetVar(id, "ShowText");
-	L_UIDropDownMenu_AddButton(info);
+	eddm.UIDropDownMenu_AddButton(info);
 
 	info = {};
 	info.text = L["more"];
 	info.func = ToggleMoreSpace;
 	info.arg1 = id
 	info.checked = TitanGetVar(id, "MoreSpace");
-	L_UIDropDownMenu_AddButton(info);
+	eddm.UIDropDownMenu_AddButton(info);
 
 	info = {};
 	info.text = ACE["TITAN_CLOCK_MENU_DISPLAY_ON_RIGHT_SIDE"];
 	info.func = ToggleRightSideDisplay;
 	info.arg1 = id
 	info.checked = TitanGetVar(id, "DisplayOnRightSide");
-	L_UIDropDownMenu_AddButton(info);
+	eddm.UIDropDownMenu_AddButton(info);
 
-	TitanPanelRightClickMenu_AddSpacer();
-	TitanPanelRightClickMenu_AddCommand(ACE["TITAN_PANEL_MENU_HIDE"], id, TITAN_PANEL_MENU_FUNC_HIDE);
+	eddm.UIDropDownMenu_AddSpace();
+
+	eddm.UIDropDownMenu_AddButton({
+		notCheckable = true,
+		text = ACE["TITAN_PANEL_MENU_HIDE"],
+		func = function() TitanPanelRightClickMenu_Hide(id) end
+	})
+
+	eddm.UIDropDownMenu_AddSeparator();
+
+	info = {};
+	info.text = CLOSE;
+	info.notCheckable = true
+	info.keepShownOnClick = false
+	eddm.UIDropDownMenu_AddButton(info);
 end
-----------------------------------------------
