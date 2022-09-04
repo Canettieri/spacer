@@ -4,6 +4,8 @@
 ## Author: Canettieri
 ## Version: @project-version@
 ## Dependencies: Titan
+## X-Curse-Project-ID: 94740
+## X-Wago-ID: 5bGogBG0
 Core\ElioteDropDownMenu-1.0.lua
 Core\Elib-4.0.lua
 Core\SpacerCore.lua
