@@ -1,14 +1,13 @@
-## Interface: 90207
-## Title: Titan Panel [|cff336699Spacer|r] |cff00aa00@project-version@|r
+## Interface: 11403
+## Title: Titan Panel [|cff336699Spacer|r] |cff00aa00@project-version@ Classic Era|r
 ## Notes: Add spacers on Titan Panel! Right-click on Titan Panel, go to "Interface" tab and enjoy.
 ## Author: Canettieri
 ## Version: @project-version@
-## Dependencies: Titan
+## Dependencies: TitanClassic
 ## X-Curse-Project-ID: 94740
 ## X-Wago-ID: 5bGogBG0
-Core\ElioteDropDownMenu-1.0.lua
-Core\Elib-4.0.lua
-Core\SpacerCore.lua
+Core\Classic\Elib-3.0.lua
+Core\Classic\SpacerCore-Classic.lua
 Core\locale.lua
 TitanSpacer1.lua
 TitanSpacer2.lua
