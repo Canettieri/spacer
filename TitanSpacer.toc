@@ -1,4 +1,4 @@
-## Interface: 100002
+## Interface: 100005
 ## Title: Titan Panel [|cff336699Spacer|r] |cff00aa00@project-version@|r
 ## Notes: Add spacers on Titan Panel! Right-click on Titan Panel, go to "Interface" tab and enjoy.
 ## Author: Canettieri
