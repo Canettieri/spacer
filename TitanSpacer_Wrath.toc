@@ -17,3 +17,5 @@ TitanSpacer5.lua
 TitanSpacer6.lua
 TitanSpacer7.lua
 TitanSpacer8.lua
+TitanSpacer9.lua
+TitanSpacer10.lua
