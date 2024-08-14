@@ -5,6 +5,7 @@ Author: Canettieri
 --]]
 
 local ADDON_NAME, L = ...;
+local GetAddOnMetadata = C_AddOns and C_AddOns.GetAddOnMetadata or GetAddOnMetadata
 local version = GetAddOnMetadata(ADDON_NAME, "Version")
 local ID = "TITAN_ESPACO3"
 ----------------------------------------------
@@ -36,7 +37,7 @@ end
 -----------------------------------------------
 L.Elib({
 	id = ID,
-	name = "Titan|cFFfcb314 " .. "Spacer |cFFf3f45f#3" .. "|r",
+	name = "Titan|cFFfcb314 " .. "Spacer |cFFf3f45f#03" .. "|r",
 	category = "Interface",
 	version = version,
 	getButtonText = GetButtonText,
