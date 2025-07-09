@@ -6,16 +6,17 @@
 ## Dependencies: Titan
 ## X-Curse-Project-ID: 94740
 ## X-Wago-ID: 5bGogBG0
-Core\Classic\Elib-3.0.lua
-Core\Classic\SpacerCore-Classic.lua
+Core\ElioteDropDownMenu-1.0.lua
+Core\Elib-4.0.lua
+Core\SpacerCore.lua
 Core\locale.lua
-TitanSpacer1.lua
-TitanSpacer2.lua
-TitanSpacer3.lua
-TitanSpacer4.lua
-TitanSpacer5.lua
-TitanSpacer6.lua
-TitanSpacer7.lua
-TitanSpacer8.lua
-TitanSpacer9.lua
-TitanSpacer10.lua
+Spacer\TitanSpacer1.lua
+Spacer\TitanSpacer2.lua
+Spacer\TitanSpacer3.lua
+Spacer\TitanSpacer4.lua
+Spacer\TitanSpacer5.lua
+Spacer\TitanSpacer6.lua
+Spacer\TitanSpacer7.lua
+Spacer\TitanSpacer8.lua
+Spacer\TitanSpacer9.lua
+Spacer\TitanSpacer10.lua
