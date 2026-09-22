@@ -1,4 +1,4 @@
-## Interface: 120007, 50504, 20506, 11509
+## Interface: 120100, 50504, 20506, 11509
 ## Title: Titan Panel [|cff336699Spacer|r] |cff00aa00@project-version@|r
 ## Notes: Add spacers on Titan Panel! Right-click on Titan Panel, go to "Interface" tab and enjoy.
 ## Author: Canettieri
@@ -10,13 +10,4 @@ Core\ElioteDropDownMenu-1.0.lua
 Core\Elib-4.0.lua
 Core\SpacerCore.lua
 Core\locale.lua
-Spacer\TitanSpacer1.lua
-Spacer\TitanSpacer2.lua
-Spacer\TitanSpacer3.lua
-Spacer\TitanSpacer4.lua
-Spacer\TitanSpacer5.lua
-Spacer\TitanSpacer6.lua
-Spacer\TitanSpacer7.lua
-Spacer\TitanSpacer8.lua
-Spacer\TitanSpacer9.lua
-Spacer\TitanSpacer10.lua
+Spacer\TitanSpacers.lua
