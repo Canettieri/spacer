@@ -2,7 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased]
+## [4.1.0] - 2026-11-01
+
+### Added
+
+- Added WoW: Forever (Camelot, interface 16001) to the shared addon manifest.
+
+### Changed
+
+- Updated the Retail interface version to 120105 for WoW 12.1.5.
 
 ## [4.0.0] - 2026-09-22
 
@@ -32,6 +40,6 @@ All notable changes to this project will be documented in this file.
 
 - Updated the addon interface metadata for supported WoW game clients.
 
-[unreleased]: https://github.com/Canettieri/spacer/compare/v4.0.0...HEAD
+[4.1.0]: https://github.com/Canettieri/spacer/releases/tag/v4.1.0
 [4.0.0]: https://github.com/Canettieri/spacer/releases/tag/v4.0.0
 [3.7.2]: https://github.com/Canettieri/spacer/releases/tag/v3.7.2

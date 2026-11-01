@@ -29,7 +29,7 @@ Each spacer has these menu options:
 
 ## Supported game versions
 
-The addon supports Retail and the Classic game clients listed in `TitanSpacer.toc`. It uses Titan Panel's shared plugin APIs, so the same spacer behavior is available in every supported client.
+The addon targets Retail (interface 120105), Mists of Pandaria Classic (50504), The Burning Crusade Classic (20506), Classic Era (11509), and WoW: Forever / Camelot (16001). All clients use the same files through `TitanSpacer.toc` and Titan Panel's shared plugin APIs. Install a Titan Panel version compatible with your game client. In-game validation on Forever is still pending.
 
 ## Languages
 
