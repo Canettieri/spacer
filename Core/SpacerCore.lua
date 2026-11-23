@@ -15,11 +15,7 @@ local function ToggleShowText(_, id) -- Toggle to show symbols
 end
 
 local function ToggleRightSideDisplay(_, id) -- Right side display
-	local bar = TitanUtils_GetWhichBar(id)
-	TitanToggleVar(id, "DisplayOnRightSide");
-	TitanPanel_RemoveButton(id);
-	TitanUtils_AddButtonOnBar(bar, id);
-	TitanPanelButton_UpdateButton(id)
+	TitanUtils_SwapButtonSide(id)
 end
 
 local function ToggleMoreSpace(_, id) -- Hide Max display

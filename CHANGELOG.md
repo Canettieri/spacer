@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.2.0] - 2026-11-23
+
+### Fixed
+
+- Fixed **Display on Right Side** by using Titan Panel's built-in side switch to move spacers within the same bar.
+
 ## [4.1.0] - 2026-11-01
 
 ### Added
